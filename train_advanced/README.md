@@ -1,4 +1,4 @@
-# AST SSL Independent V3 – README
+# AST SSL ADVANCED METHODS (ssl, ensemble) – README
 
 Self‑supervised learning (SSL) pretraining of an **Audio Spectrogram Transformer (AST)** using 1‑second 16 kHz mosquito audio clips. This version uses an independent data split and adds early stopping.
 
