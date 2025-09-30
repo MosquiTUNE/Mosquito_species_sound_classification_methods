@@ -1,4 +1,4 @@
-# Mosquito Audio Classification – Code Repository for Paper
+# Mosquito Sound Classification – Code Repository for Paper
 
 This repository contains the **code accompanying a research paper** on mosquito audio classification.  
 All training and evaluation scripts used in the experiments are included here.  
