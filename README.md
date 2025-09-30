@@ -2,7 +2,7 @@
 
 This repository contains the **code accompanying a research paper** on mosquito audio classification.  
 All training and evaluation scripts used in the experiments are included here.  
-The **datasets themselves are hosted elsewhere** ([not included in this repository, but it can be downloaded from zenodo](https://zenodo.org/records/17236247?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc1OTI1NDMxMiwiZXhwIjoxOTI0OTA1NTk5fQ.eyJpZCI6IjJmYTA1OTU1LTc0OTUtNGZkZi1iMmM3LTNmY2QyZGQ5YzhhNCIsImRhdGEiOnt9LCJyYW5kb20iOiJhZDAwYjk0Y2IxMWU1ZGYxMTIxMTg2MDUxM2M0MGQzYiJ9.0msG4dqYqwxgpIGimFCKUPgC9VsjTrN1Pf-RnMKEoPyIE6ONymPEy7UBOcqxwzJbLnG7dCo6HOE_Qh12LF1r7A)); a separate README.md files will describe data, used for publication.
+The **datasets themselves are hosted elsewhere** ([not included in this repository, but it can be downloaded from zenodo](https://zenodo.org/records/17236247?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc1OTI1NDMxMiwiZXhwIjoxOTI0OTA1NTk5fQ.eyJpZCI6IjJmYTA1OTU1LTc0OTUtNGZkZi1iMmM3LTNmY2QyZGQ5YzhhNCIsImRhdGEiOnt9LCJyYW5kb20iOiJhZDAwYjk0Y2IxMWU1ZGYxMTIxMTg2MDUxM2M0MGQzYiJ9.0msG4dqYqwxgpIGimFCKUPgC9VsjTrN1Pf-RnMKEoPyIE6ONymPEy7UBOcqxwzJbLnG7dCo6HOE_Qh12LF1r7A)); a separate README....md like files will describe data, used for publication.
 
 ---
 
