@@ -76,9 +76,6 @@ If something extra is required for your setup (e.g., `ffmpeg`), install it with 
 conda install -y -c conda-forge ffmpeg
 pip install <extra-package>
 ```
-
-> Tip: If you need a fully reproducible setup, consider providing an `environment.yml`. I can generate one from your current env if you’d like.
-
 ---
 
 ## How to Reproduce Experiments
