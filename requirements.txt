@@ -1,0 +1,38 @@
+# ---- Core ----
+numpy>=1.22,<2.0           # if you hit CUBLAS/Librosa issues, try <=1.21
+scipy>=1.9
+pandas>=1.5
+tqdm>=4.66
+
+# ---- PyTorch + Audio ----
+# Install torch/torchvision/torchaudio matching your CUDA from https://pytorch.org/get-started/locally/
+# Example CPU-only:
+# torch==2.3.1
+# torchaudio==2.3.1
+# If using CUDA, install the matching build (do NOT install via this file).
+librosa>=0.10
+soundfile>=0.12
+numba>=0.57
+
+# ---- Hugging Face stack ----
+transformers>=4.40
+datasets>=2.18
+accelerate>=0.30
+safetensors>=0.4
+
+# ---- Training / Eval / Viz ----
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.13
+
+# ---- Notebook + automation ----
+jupyter>=1.0
+ipykernel>=6.29
+papermill>=2.5
+nbformat>=5.9
+nbclient>=0.10
+
+# ---- Optional but helpful ----
+tensorboard>=2.16
+psutil>=5.9
+
