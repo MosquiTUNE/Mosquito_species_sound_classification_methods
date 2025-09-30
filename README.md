@@ -40,31 +40,6 @@ Older or per-file evaluation scripts are under `train_from_pretrained/`.
 
 ---
 
-## Workflow Diagram
-
-```mermaid
-flowchart LR
-    A[Audio Dataset<br/>(train/validation)] --> B[Split<br/>Independent / Random]
-    B --> C[SSL-Pretrained AST]
-
-    subgraph "Papermill Fine-Tuning"
-      direction TB
-      C --> D1[Config #1]
-      C --> D2[Config #2]
-      C --> Dn[Config #N]
-      D1 --> M1[Fine-Tuned Model 1]
-      D2 --> M2[Fine-Tuned Model 2]
-      Dn --> Mn[Fine-Tuned Model N]
-    end
-
-    subgraph "Ensemble Evaluation"
-      direction TB
-      M1 & M2 & Mn --> E[eval_all_ensemble_AST-fromSSL.ipynb]
-      E --> R[Metrics & Plots<br/>(Accuracy, Balanced Acc., F1, Confusion Matrix)]
-    end
-```
-
----
 
 ## Installation
 
