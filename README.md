@@ -36,25 +36,48 @@ Ensemble experiments are managed under `train_advanced/`:
   These scripts call the fine-tuning notebook repeatedly with different parameters to produce multiple fine-tuned models for ensemble evaluation (independent vs. random data split only differ in data paths).
 - **Ensemble evaluation**: `ensemble/eval_all_ensemble_AST-fromSSL.ipynb` (aggregates predictions from multiple fine-tuned models and computes metrics)
 
-Older or per-file evaluation scripts are under `train_from_pretrained/`.
-
 ---
 
 
+Sure—here’s a conda-based install section you can drop into your README:
+
+---
+
 ## Installation
 
-Create a virtual environment and install dependencies:
+Create a **conda** environment and install dependencies:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+# 1) Create and activate the environment
+conda create -n mosquito-audio python=3.10 -y
+conda activate mosquito-audio
 
-# Install torch/torchaudio matching your CUDA:
-pip install --index-url https://download.pytorch.org/whl/cu121 torch torchaudio torchvision
+# 2) Install PyTorch stack (choose ONE of the options below)
+
+# (A) CUDA GPU (recommended on NVIDIA GPUs)
+#    Pick a CUDA version your driver supports (e.g., 12.1):
+conda install -y pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
+# (B) CPU-only
+conda install -y pytorch torchvision torchaudio cpuonly -c pytorch
+
+# (C) Apple Silicon (MPS)
+conda install -y pytorch torchvision torchaudio -c pytorch
+
+# 3) Install project Python packages
+pip install -r requirements.txt
 ```
 
-A unified `requirements.txt` at the project root contains all Python dependencies needed for AST, ResNet, attention, Papermill automation, and evaluation.
+A unified `requirements.txt` at the project root contains almost all Python dependencies needed for **AST**, **ResNet**, **attention modules**, **Papermill automation**, and **evaluation**.
+If something extra is required for your setup (e.g., `ffmpeg`), install it with `conda` or `pip`:
+
+```bash
+# examples
+conda install -y -c conda-forge ffmpeg
+pip install <extra-package>
+```
+
+> Tip: If you need a fully reproducible setup, consider providing an `environment.yml`. I can generate one from your current env if you’d like.
 
 ---
 
