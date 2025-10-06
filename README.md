@@ -12,7 +12,7 @@ Separate README-style files provided there describe the data used for the public
 We implemented and evaluated four main model families for mosquito sound classification:
 
 - **MosquitoSong+** – training code of publication: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310121
-- **ResNet-18** – simple convolutional baseline
+- **ResNet-18** – simple convolutional baseline: https://www.sciencedirect.com/science/article/abs/pii/S1746809424004002
 - **ResNet-18 + Self-Attention** – ResNet enhanced with attention
 - **AST (Audio Spectrogram Transformer)** – SSL-pretraining and fine-tuning
 
