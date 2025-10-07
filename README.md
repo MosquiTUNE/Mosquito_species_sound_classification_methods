@@ -3,7 +3,7 @@
 This repository contains the **code accompanying a research paper** on mosquito audio classification.  
 All training and evaluation scripts used in the experiments are included here.  
 The **datasets themselves are hosted elsewhere** ([they are not included in this repository, but all data will be downloaded from Zenodo, after our paper is accepted.
-Separate README-style files provided there describe the data used for the publication.](https://zenodo.org/records/17238071?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc1OTI2MTE4OSwiZXhwIjoxOTI0OTA1NTk5fQ.eyJpZCI6Ijc2NTAzNTVjLTcwMDktNGJmZS04N2JhLWMwYmM1OTgwMDU5MCIsImRhdGEiOnt9LCJyYW5kb20iOiIzNTY5ZjY4OGViYTNiMTlmNGI2ZTA1NmUyNmVjNDgyNSJ9.D7Y5dI5GodV6zyVxvjmHx1tMKhJjNcZSPSti2LbufODTFSJJ7C0n3EAriYC1MQmnCxKsdWrhnAJSUYs_3fV1lA))
+Separate README-style files provided there describe the data used for the publication.](https://zenodo.org))
 
 ---
 
